@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #FFFFFF;
+}
+:root{
+    --primary-color: #F53838;
+    --text-color: #000;
+    --p-color: rgba(51, 48, 48, 0.753);
+    
+}
+p{
+    color: var(--p-color);
+}
+a{
+    text-decoration: none;
+}
+.highlight{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+/*=========================HADAR============================*/  
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 100;
+}
+.nav-item a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.nav-item:hover a{
+    color: var(--primary-color);
+}
+.sinBtn,.sinUpBtn{
+    font-weight: 600;
+    padding: 8px 35px;
+    border-radius: 25px;
+}
+
+/*====================BANNER========================*/
+.banner-content{
+    padding-top: 30px;
+}
+.banner-content h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+.banner-content span{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.banner-content p{
+    font-size: 18px;
+    color: var(--p-color);
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+.banner-btn{
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 600;
+    padding: 18px 40px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.35s;
+    font-size: 16px;
+}
+.banner-btn:hover{
+    background-color: var(--text-color);
+    color: #fff;
+
+}
+
+/*====================userInfo====================*/
+.userInfoBox{
+    background-color: white;
+    border-radius: 10px;
+    padding: 60px 40px;
+    margin: 50px 0;
+    box-shadow: 4px 14px 20px rgb(0 0 0 / 4%);
+}
+.icon{
+    padding: 13px;
+    background: #de474747;
+    border-radius: 50%;
+}
+/*====================features======================*/
+
+.features-text{
+    padding: 90px 40px 40px 0px;
+}
+.pricing{
+    background: #0000002c;
+    padding: 80px 0 140px 0;
+}
+.cardBox{
+    transition: 0.2s;
+}
+.cardBox:hover{
+    transform: scale(1.02);
+}
+
+
+.Customer {
+	display: grid;
+	place-items: center;
+    background: #00000016;
+    padding-top: 100px;
+}
+.section-header{
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #000000;
+}
+
+.section-header span {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
+.testimonials{
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 0 auto;
+}
+.single-item{
+    background: #fff;
+    color: #111;
+    padding: 15px;
+    margin: 50px 15px;
+    border-radius: 15px;
+}
+.profile{
+    text-align: center;    
+}
+.img-area {
+	margin: 25px 15px 15px 0px;
+}
+.img-area img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: 3px solid var(--primary-color);
+}
+.content{
+    font-size: 18px;
+}
+.content p {
+	text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-content: center;
+    height: 200px;
+}
+
+
+.bio h4 {
+	color: #FDD108;
+    font-size: 18px;
+}
+.bio h2{
+    font-size: 22px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: var(--primary-color);
+    border-radius: 50%;
+}
+.warp{
+   position: relative; 
+    
+}
+.subscribeBox{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    width: 90%;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    box-shadow: 0 1.5625rem 2.8125rem rgba(79, 86, 101, 0.075)
+}
+/*=====================Footer============================*/
+.title span{
+    color: var(--primary-color);
+   
+}
+.title{
+    font-weight: 700;
+}
+.social{
+    font-size: 35px;
+    margin: 20px 0 30px 0;
+}
+.social i{
+    font-size: 22px;
+    padding: 15px 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+.social i:first-child{
+    padding-left: 0;
+}
+.social i:hover{
+    color: var(--primary-color);
+}
+.Ser{
+ padding: 20px 0px;
+}
+.Ser p{
+    transition: 0.3s;
+}
+.Ser p:hover{
+ color: var(--primary-color);
+ cursor: pointer;
+ padding-left: 5px;
+}
+.download{
+    font-size: 40px;
+    margin-top: 100px;
+}
